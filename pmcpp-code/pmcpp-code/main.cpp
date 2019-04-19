@@ -8,11 +8,13 @@
 
 #include <iostream>
 #include "basis/variadic_template.hpp"
+#include "basis/forwarding_reference.hpp"
+
 
 int main(int argc, const char * argv[]) {
     
-    variadic_template();
-    
+//    variadic_template();
+    forwarding_reference();
     
     return 0;
 }

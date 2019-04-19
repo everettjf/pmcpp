@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		D1DA462222637EDE0026FD1E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1DA462122637EDE0026FD1E /* main.cpp */; };
 		D1DA462A2266243A0026FD1E /* variadic_template.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1DA46282266243A0026FD1E /* variadic_template.cpp */; };
+		D1DA46F62269937C0026FD1E /* forwarding_reference.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1DA46F42269937C0026FD1E /* forwarding_reference.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		D1DA462122637EDE0026FD1E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		D1DA46282266243A0026FD1E /* variadic_template.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = variadic_template.cpp; sourceTree = "<group>"; };
 		D1DA46292266243A0026FD1E /* variadic_template.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = variadic_template.hpp; sourceTree = "<group>"; };
+		D1DA46F42269937C0026FD1E /* forwarding_reference.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = forwarding_reference.cpp; sourceTree = "<group>"; };
+		D1DA46F52269937C0026FD1E /* forwarding_reference.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = forwarding_reference.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +74,8 @@
 			children = (
 				D1DA46282266243A0026FD1E /* variadic_template.cpp */,
 				D1DA46292266243A0026FD1E /* variadic_template.hpp */,
+				D1DA46F42269937C0026FD1E /* forwarding_reference.cpp */,
+				D1DA46F52269937C0026FD1E /* forwarding_reference.hpp */,
 			);
 			path = basis;
 			sourceTree = "<group>";
@@ -131,6 +136,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1DA46F62269937C0026FD1E /* forwarding_reference.cpp in Sources */,
 				D1DA462A2266243A0026FD1E /* variadic_template.cpp in Sources */,
 				D1DA462222637EDE0026FD1E /* main.cpp in Sources */,
 			);
