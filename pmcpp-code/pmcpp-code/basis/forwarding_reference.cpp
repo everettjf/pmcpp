@@ -7,9 +7,46 @@
 //
 
 #include "forwarding_reference.hpp"
+#include <type_traits>
+#include <iostream>
+
+using namespace std;
 
 
-void forwarding_reference(){
+template <typename T, typename... Args>
+void bar(Args&&... args) {
     
+}
+
+
+template <typename T, typename... Args>
+void foo(Args&&... args) {
+    bar(std::forward<Args>(args)...);
+}
+
+
+void g(int& param) {
+    cout<< "g int&"<<endl;
+}
+
+void g(int&& param) {
+    cout << "g int&&" <<endl;
+}
+
+template <typename T>
+void f(T&& param){
+    g(std::forward<T>(param));
+}
+
+int call(){
+    return 1;
+}
+void forwarding_reference(){
+    f(1);
+    
+    int a = 1;
+    f(a);
+    
+    f(call());
 }
 
