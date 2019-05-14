@@ -10,13 +10,15 @@
 #include "basis/variadic_template.hpp"
 #include "basis/forwarding_reference.hpp"
 #include "basis/array_vector.hpp"
+#include "basis/deque_test.hpp"
 
 
 int main(int argc, const char * argv[]) {
     
 //    variadic_template();
 //    forwarding_reference();
-    array_vector();
+//    array_vector();
+    deque_test();
     
     return 0;
 }
