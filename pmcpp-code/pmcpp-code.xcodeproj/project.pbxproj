@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D107FE84229ECBB400987883 /* list_test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D107FE82229ECBB400987883 /* list_test.cpp */; };
 		D12F75022271F41900B7EF2A /* array_vector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D12F75002271F41900B7EF2A /* array_vector.cpp */; };
 		D1D5B67B228A3CD9006AA9DD /* deque_test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1D5B679228A3CD9006AA9DD /* deque_test.cpp */; };
 		D1DA462222637EDE0026FD1E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1DA462122637EDE0026FD1E /* main.cpp */; };
@@ -27,6 +28,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D107FE82229ECBB400987883 /* list_test.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = list_test.cpp; sourceTree = "<group>"; };
+		D107FE83229ECBB400987883 /* list_test.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = list_test.hpp; sourceTree = "<group>"; };
 		D12F75002271F41900B7EF2A /* array_vector.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = array_vector.cpp; sourceTree = "<group>"; };
 		D12F75012271F41900B7EF2A /* array_vector.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = array_vector.hpp; sourceTree = "<group>"; };
 		D1D5B679228A3CD9006AA9DD /* deque_test.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = deque_test.cpp; sourceTree = "<group>"; };
@@ -86,6 +89,8 @@
 				D12F75012271F41900B7EF2A /* array_vector.hpp */,
 				D1D5B679228A3CD9006AA9DD /* deque_test.cpp */,
 				D1D5B67A228A3CD9006AA9DD /* deque_test.hpp */,
+				D107FE82229ECBB400987883 /* list_test.cpp */,
+				D107FE83229ECBB400987883 /* list_test.hpp */,
 			);
 			path = basis;
 			sourceTree = "<group>";
@@ -130,6 +135,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = D1DA461522637EDE0026FD1E;
 			productRefGroup = D1DA461F22637EDE0026FD1E /* Products */;
@@ -151,6 +157,7 @@
 				D1DA462A2266243A0026FD1E /* variadic_template.cpp in Sources */,
 				D1D5B67B228A3CD9006AA9DD /* deque_test.cpp in Sources */,
 				D1DA462222637EDE0026FD1E /* main.cpp in Sources */,
+				D107FE84229ECBB400987883 /* list_test.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
