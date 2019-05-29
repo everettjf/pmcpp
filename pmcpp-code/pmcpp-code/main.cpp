@@ -12,6 +12,7 @@
 #include "basis/array_vector.hpp"
 #include "basis/deque_test.hpp"
 #include "basis/list_test.hpp"
+#include "basis/map_set_test.hpp"
 
 
 int main(int argc, const char * argv[]) {
@@ -20,7 +21,8 @@ int main(int argc, const char * argv[]) {
 //    forwarding_reference();
 //    array_vector();
 //    deque_test();
-    list_test();
+//    list_test();
+    map_set_test();
     
     return 0;
 }
