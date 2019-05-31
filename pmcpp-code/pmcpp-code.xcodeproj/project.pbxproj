@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		D107FE84229ECBB400987883 /* list_test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D107FE82229ECBB400987883 /* list_test.cpp */; };
 		D107FE87229EE0AE00987883 /* map_set_test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D107FE85229EE0AE00987883 /* map_set_test.cpp */; };
+		D107FE8E22A17E4500987883 /* serial_task.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D107FE8C22A17E4500987883 /* serial_task.cpp */; };
+		D107FE9122A1815E00987883 /* serial_task_test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D107FE8F22A1815E00987883 /* serial_task_test.cpp */; };
 		D12F75022271F41900B7EF2A /* array_vector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D12F75002271F41900B7EF2A /* array_vector.cpp */; };
 		D1D5B67B228A3CD9006AA9DD /* deque_test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1D5B679228A3CD9006AA9DD /* deque_test.cpp */; };
 		D1DA462222637EDE0026FD1E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1DA462122637EDE0026FD1E /* main.cpp */; };
@@ -33,6 +35,10 @@
 		D107FE83229ECBB400987883 /* list_test.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = list_test.hpp; sourceTree = "<group>"; };
 		D107FE85229EE0AE00987883 /* map_set_test.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = map_set_test.cpp; sourceTree = "<group>"; };
 		D107FE86229EE0AE00987883 /* map_set_test.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = map_set_test.hpp; sourceTree = "<group>"; };
+		D107FE8C22A17E4500987883 /* serial_task.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = serial_task.cpp; sourceTree = "<group>"; };
+		D107FE8D22A17E4500987883 /* serial_task.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = serial_task.hpp; sourceTree = "<group>"; };
+		D107FE8F22A1815E00987883 /* serial_task_test.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = serial_task_test.cpp; sourceTree = "<group>"; };
+		D107FE9022A1815E00987883 /* serial_task_test.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = serial_task_test.hpp; sourceTree = "<group>"; };
 		D12F75002271F41900B7EF2A /* array_vector.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = array_vector.cpp; sourceTree = "<group>"; };
 		D12F75012271F41900B7EF2A /* array_vector.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = array_vector.hpp; sourceTree = "<group>"; };
 		D1D5B679228A3CD9006AA9DD /* deque_test.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = deque_test.cpp; sourceTree = "<group>"; };
@@ -56,6 +62,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D107FE8B22A17E1800987883 /* usage */ = {
+			isa = PBXGroup;
+			children = (
+				D107FE8C22A17E4500987883 /* serial_task.cpp */,
+				D107FE8D22A17E4500987883 /* serial_task.hpp */,
+				D107FE8F22A1815E00987883 /* serial_task_test.cpp */,
+				D107FE9022A1815E00987883 /* serial_task_test.hpp */,
+			);
+			path = usage;
+			sourceTree = "<group>";
+		};
 		D1DA461522637EDE0026FD1E = {
 			isa = PBXGroup;
 			children = (
@@ -75,6 +92,7 @@
 		D1DA462022637EDE0026FD1E /* pmcpp-code */ = {
 			isa = PBXGroup;
 			children = (
+				D107FE8B22A17E1800987883 /* usage */,
 				D1DA462B2266243F0026FD1E /* basis */,
 				D1DA462122637EDE0026FD1E /* main.cpp */,
 			);
@@ -159,11 +177,13 @@
 			files = (
 				D1DA46F62269937C0026FD1E /* forwarding_reference.cpp in Sources */,
 				D12F75022271F41900B7EF2A /* array_vector.cpp in Sources */,
+				D107FE8E22A17E4500987883 /* serial_task.cpp in Sources */,
 				D1DA462A2266243A0026FD1E /* variadic_template.cpp in Sources */,
 				D1D5B67B228A3CD9006AA9DD /* deque_test.cpp in Sources */,
 				D1DA462222637EDE0026FD1E /* main.cpp in Sources */,
 				D107FE87229EE0AE00987883 /* map_set_test.cpp in Sources */,
 				D107FE84229ECBB400987883 /* list_test.cpp in Sources */,
+				D107FE9122A1815E00987883 /* serial_task_test.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

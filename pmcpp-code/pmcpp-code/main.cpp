@@ -13,6 +13,7 @@
 #include "basis/deque_test.hpp"
 #include "basis/list_test.hpp"
 #include "basis/map_set_test.hpp"
+#include "usage/serial_task_test.hpp"
 
 
 int main(int argc, const char * argv[]) {
@@ -22,7 +23,9 @@ int main(int argc, const char * argv[]) {
 //    array_vector();
 //    deque_test();
 //    list_test();
-    map_set_test();
+//    map_set_test();
+    
+    serial_task_test();
     
     return 0;
 }
