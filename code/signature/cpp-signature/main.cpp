@@ -75,10 +75,14 @@ int main(int argc, const char * argv[]) {
     
 
     cout << m3_type_to_sig<i32>::value << endl;
-    cout << GetTypeEncoding<i32,i32>() << endl;
-    cout << FunctionWrapper<foo1>::GetFunctionSignature() << endl;
-
+    
+    cout << GetTypeEncoding<i32,i32,i32>() << endl;
+    cout << GetTypeEncoding<i32,f32,f32>() << endl;
     cout << GetTypeEncoding<i64,i64>() << endl;
+    
+    cout << FunctionWrapper<foo1>::GetFunctionSignature() << endl;
+    cout << FunctionWrapper<foo2>::GetFunctionSignature() << endl;
+
 
 
     return 0;
